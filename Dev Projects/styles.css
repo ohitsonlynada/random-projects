@@ -1,0 +1,133 @@
+/* Variables */
+:root {
+    --main-bg-color: #462446;
+  }
+
+/* Basic/Mobile Styles */  
+
+
+/* Variables */
+:root {
+    --main-bg-color: #462446;
+  }
+  
+body {
+    background: var(--main-bg-color);;
+    color: #7aacb3;
+    height: 100vw;
+    text-align: center;
+    font-family: "Passion One", sans-serif;
+}
+main.container {
+    margin: 0 auto;
+}
+
+section.picker-box {
+    width: 90%;
+    margin: 1em auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(27, 14, 27, .25);
+    border-radius: 2rem;
+    padding: 2rem 0;
+}
+a {
+    color: #47b39d;
+    font-size:2rem;
+}
+
+h1 {
+    font-size:4rem;
+    margin: 0;
+}
+
+h2 {
+    font-size:4rem;
+    margin: .5rem;
+    color: #eb6b56;
+    text-shadow: 0px 0px 8px rgba(235,107,86,0.95);
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+.display-main {
+    font-size: 2rem;
+    padding: 2rem;
+    border: 2px solid #ffc153;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+    font-family: "Passion One", sans-serif;
+}
+
+.btn {
+    padding: 1rem;
+    border-radius: 100px;
+    background: #ffc153;
+    color: #47b39d;
+    border: none;
+    box-shadow: 0px 0px 62px 1px rgba(176,95,109,1);
+    font-family: "Passion One", sans-serif;
+    font-size: 2em;
+    cursor:pointer;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+    0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+ /* Extra small devices (phones, 600px and down) */
+ /* @media only screen and (max-width: 600px) {...} */
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ /* @media only screen and (min-width: 600px) {...} */
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ /* @media only screen and (min-width: 768px) {...} */
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ /* @media only screen and (min-width: 992px) {...} */
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    section.picker-box {
+        width: 70%;
+        margin: 4em auto;
+        border-radius: 2rem;
+        padding: 6rem 0;
+    }
+    
+    h1 {font-size:2rem;}
+    
+    h2 {
+        font-size:6rem;
+        margin: 1.5rem;
+    }
+    .display-main {
+        font-size: 6rem;
+        padding: 4rem;
+        border-radius: 50px;
+        margin-bottom: 2rem;
+    }
+}
+
+
+
