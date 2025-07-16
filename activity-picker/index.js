@@ -22,7 +22,19 @@ let activities = [
     "Meditate",
     "Tai Chi",
     "Yoga",
-    "work on a puzzle"
+    "Work on a puzzle",
+    "Watch a TED Talk",
+    "Practice Photography",
+    "Write a short story",
+    "Practice the guitar",
+    "Practice the piano",
+    "Draw a comic",
+    "Draw a coloring page",
+    "Work on your website",
+    "Penmanship practice",
+    "Write in your journal",
+    "Work on your scrapbook",
+    "Do a creative exercise"
 ];
 
 btnMain.addEventListener("click", getActivity);
