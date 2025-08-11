@@ -4,9 +4,7 @@ let activities = [
     "Science",
     "Math",
     "ELA",
-    "History",
-    "PE",
-    "Music"
+    "Civics"
 ];
 
 btnMain.addEventListener("click", getActivity);
